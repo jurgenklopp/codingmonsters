@@ -107,9 +107,8 @@ head(dataset)
 tail(dataset)
 View(dataset)
 
-# Next time...
-# Importing data from elsewhere
-# Random assignment
-# Data screening and cleaning
-# Visualizations
-# Do you have any requests?
+# Exporting data to file
+# First, set working directory
+# (Show using Session menu)
+write.csv(dataset,"dataset.csv",row.names=FALSE)
+# Show how to import into SPSS
