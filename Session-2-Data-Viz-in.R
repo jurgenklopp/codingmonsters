@@ -79,10 +79,6 @@ plot(RSCH620data$AvgHR,RSCH620data$AvgTD)
 ?sample
 sample(1:50,size=25)
 sample(c("Control","Intervention"),size=1)
-# Other requests on randomization?
-
-# Data screening and cleaning
-# Taking requests here
 
 # Next time...
 # Descriptive and Inferential stats
